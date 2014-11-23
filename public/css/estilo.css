@@ -1,0 +1,412 @@
+*{
+	padding: 0;
+	margin: 0;
+	}
+body{
+	border-bottom:#FFF solid 6px;
+	border-right:#FFF solid 6px;
+	border-left:#FFF solid 6px;
+	}
+h1{
+	font: 2.4em 'Roboto Condensed', Verdana, Geneva, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 10px 0;
+	}
+
+h4{
+	font: 2.2em 'Roboto Condensed', Verdana, Geneva, sans-serif;
+	}
+p{
+	font: 1.1em 'Droid Sans', sans-serif;
+	font-weight: 400;
+	line-height: 2;
+	}
+b{
+	font-weight:700;
+	}
+p a{
+	color: #019934;
+}
+#wrapper{
+	margin-top:125px;
+	}
+header{
+	width: 100%;
+	z-index:1;
+	}
+.big-container{
+	width:100%;
+	background:rgba(255, 255, 255, 0.84);
+	z-index:2;
+	position: fixed;
+	padding:8px 0 0 0;
+	border-top:#FFF solid 6px;
+	}
+.margenBigContainer{
+	margin-top:-122px;
+	}
+#logo{
+	width:146px;
+	height:100px;
+	z-index:3;
+	position:relative;
+	float:left;
+	margin: 6px 0;
+	}
+nav{
+	float: right;
+}
+.navbar{
+	background:rgba(255, 255, 255, 0.84);
+	z-index:2;
+	border-top:#FFF solid 6px;
+	}
+.navbar .nav{
+	margin-top: 37px;
+	}
+ul.nav li{
+	font:1.2em 'Roboto Condensed', Verdana, Geneva, sans-serif;
+	text-transform:uppercase;
+	margin: 3px 6px;
+	}
+ul.nav li a{
+	color: #333;
+	padding: 2px;
+}
+ul.nav li.active, ul.nav li:hover{
+	border-bottom: #019934 3px solid;
+	color: #019934;
+	}
+ul.nav li ul{
+	background: #FFF;
+	font-size: .8em;
+}
+ul.nav li li ul{
+	margin-top: -3px;
+}
+.right-caret {
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-left: 4px solid #333;
+    display: inline-block;
+    height: 0;
+    vertical-align: middle;
+    width: 0;
+    position: absolute;
+    right: 3px;
+    top: 8px;
+}
+
+
+
+/* nav
+.nav {
+	margin: 43px auto 0 auto;
+	}
+.nav li {
+	list-style: none;
+	display: inline-block;
+	font:1.2em 'Roboto Condensed', Verdana, Geneva, sans-serif;
+	text-transform:uppercase;
+}
+.nav a {
+	margin: 3px 12px;
+	text-decoration: none;
+	color: #999;
+	line-height: 100%;
+}
+.nav .current a, .nav a:hover{
+	border-bottom: #019934 3px solid;
+	color: #019934;
+}
+.nav.right ul {
+	text-align: right;
+}*/
+li#buscador{
+	cursor: pointer;
+	}
+
+li#buscador:hover{
+	border:none;
+	}
+#buscar{
+	display:none;
+	border-top:#FFF 1px solid;
+	padding:20px 0;
+	background:#e1e1e1;
+	border-right:#FFF solid 6px;
+	border-left:#FFF solid 6px;
+	}
+form#buscarNav{
+	margin-bottom:0;
+	}
+input, textarea{
+	outline: 0;
+}
+input#busqueda, input#btnBuscar{
+	margin-bottom:0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	font:2.2em 'Droid Sans', sans-serif;
+	border: none;
+	background-color: transparent;
+	color: #999;
+	width:80%;
+	padding:15px 5px;
+	}
+input#btnBuscar{
+	text-transform:uppercase;
+	padding:0;
+	border:1px #CCC solid;
+	height:50px;
+	font-size:1.2em;
+	-webkit-transition: background-color 0.2s linear,border-color 0.2s linear;
+	-moz-transition: background-color 0.2s linear,border-color 0.2s linear;
+	-o-transition: background-color 0.2s linear,border-color 0.2s linear;
+	transition: background-color 0.2s linear,border-color 0.2s linear;
+	}
+
+input#btnBuscar:hover,  input#btnBuscar:focus{
+	background:#FFF;
+	color:#019934;
+	}
+
+.titulo{
+	width:100%;
+	padding:12px 0;
+	background:#019934;
+	color:#FFF;
+	}
+.flecha-titulo{
+	background:url(../img/flecha-titulo.png) no-repeat 50px;
+	height:7px;
+	margin-bottom: 5px;
+	}
+.img-circulares{
+	padding:40px 0;
+	}
+.span3{
+	text-align:center;
+	}
+ul.breadcrumb li{
+	font:1em 'Roboto Condensed', Verdana, Geneva, sans-serif;
+	text-transform:uppercase;
+	}
+ul.breadcrumb li a{
+	color:#019934;
+	}
+ul.breadcrumb li a:hover{
+	border-bottom: #019934 solid 3px;
+	text-decoration:none;
+	}
+#articulos{
+	display: table;
+	margin-bottom: 20px;
+	}
+#articulos h2{
+	font:1.4em 'Roboto Condensed', Verdana, Geneva, sans-serif;
+	text-transform: uppercase;
+	color: #019934;
+	}
+#articulos h2:hover{
+	color: #115026;
+}
+.descripcion{
+	text-align:left;
+	margin-bottom: 40px;
+	border-bottom: #019934 solid 2px;
+	}
+
+#articulos p{
+	font:1.1em 'Droid Sans', sans-serif;
+	margin-bottom: 10px;
+	position: relative;
+	}
+.mas-info{
+	font: .9em 'Droid Sans', sans-serif;
+	padding: 5px 8px;
+	border: #019934 solid 2px;
+	color: #019934;
+	position: absolute;
+	right: 15px;
+	bottom: 0;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	}
+.mas-info:hover{
+	border-color: #115026;
+	color: #115026;
+	}
+.articulo{
+	border-bottom: #019934 solid 2px;
+	padding-bottom: 15px;
+}
+.articulo h2{
+	font: 1.4em 'Roboto Condensed', Verdana, Geneva, sans-serif;
+	margin-top: 0;
+}
+span.codigo{
+	font-size: .8em;
+	color: grey;
+	float: right;
+	margin-top: 10px;
+}
+.pikachoose {
+	width: 100%;
+	margin: 0 auto;
+}
+.paginador{
+	float: right;
+    right: 50%;
+    position: relative;
+    margin-top: 20px;
+}
+footer{
+	width:100%;
+	background:#FFFF00;
+	padding:20px 0;
+	}
+footer h4{
+	border-top:3px #333 solid;
+	display:inline-block;
+	padding-top:15px;
+	}
+input#mailNewsletter, input#enviarNewsletter, input, textarea{
+	border:#333 solid 2px;
+	padding:10px 5px;
+	width:65%;
+	background:none;
+	border-radius:0;
+	color:#333;
+	margin:0 8px 0 0;
+	}
+input#enviarNewsletter{
+	width:25%;
+	text-transform:uppercase;
+	-webkit-transition: background-color 0.2s linear,border-color 0.2s linear;
+	-moz-transition: background-color 0.2s linear,border-color 0.2s linear;
+	-o-transition: background-color 0.2s linear,border-color 0.2s linear;
+	transition: background-color 0.2s linear,border-color 0.2s linear;
+	}
+#formNewsletter{
+	margin-bottom: 3px;
+}
+.mensajeNewsletter{
+	font-size: 1em;
+}
+#formNewsletter input:hover, #formNewsletter input:focus, #formNewsletter input:active{
+	outline: none;
+	border-color: #FFF;
+	box-shadow: none;
+	}
+ul#contactoFooter li{
+	list-style:none;
+	font:1.1em 'Droid Sans', sans-serif;
+	margin-bottom:8px;
+	}
+ul#contactoFooter a{
+	color:#333;
+	}
+ul#contactoFooter a:hover{
+	color:#FFF;
+	text-decoration:underline;
+	}
+#footerInferior{
+	background:#A35E4E;
+	padding:15px 0;
+	}
+#balloon{
+	margin-top:13px;
+	}
+#balloon a{
+	font: 1.3em Georgia, "Times New Roman", Times, serif;
+	color:#FFF;
+	}
+#envios p{
+	margin-bottom:0;
+	color:#FFF;
+	text-transform:uppercase;
+	}
+#contacto, #formulario-contacto{
+	margin-top: 30px;
+}
+label{
+	display: block;
+	margin: 0 0 5px 0;
+	font: 1.1em 'Droid Sans', sans-serif;
+	font-weight: 400;
+}
+#formulario-contacto input, #formulario-contacto textarea{
+	width: 100% !important;
+	margin-bottom: 10px !important;
+	outline: none;
+	box-shadow: none;
+	-webkit-transition: border-color 0.2s linear;
+	-moz-transition: border-color 0.2s linear;
+	-o-transition: border-color 0.2s linear;
+	transition: border-color 0.2s linear;
+}
+#formulario-contacto input:hover, #formulario-contacto textarea:hover,
+#formulario-contacto input:focus, #formulario-contacto textarea:focus,
+#formulario-contacto input:active, #formulario-contacto textarea:active,
+#modalConsulta input:hover, #modalConsulta textarea:hover,
+#modalConsulta input:focus, #modalConsulta textarea:focus,
+#modalConsulta input:active, #modalConsulta textarea:active{
+
+	border-color: #019934;
+}
+
+#formulario-contacto textarea{
+	height: 121px;
+}
+input#enviar-contacto, input#enviar-consulta{
+	width: 25% !important;
+	float: right;
+	margin-right: 0;
+	background: #019934;
+	border-color: #019934;
+	color: #FFF;
+}
+input#enviar-contacto:hover, input#enviar-consulta:hover{
+	border-color: #019934;
+	}
+#mapa{
+	width: 100%;
+	height: 250px;
+	margin: 30px 0;
+}
+.right{
+	float:right;
+	}
+.clear{
+	clear:both;
+	}
+#envios img{
+	vertical-align:middle;
+	margin-right:20px;
+	}
+.btn-consultar{
+	background: #019934;
+	color: #FFF;
+	text-transform: uppercase;
+	border-radius: 0;
+}
+.modal-footer{
+	margin-top: 0;
+}
+#modalConsulta input, #modalConsulta textarea{
+	width: 100%;
+	padding: 3px;
+	margin-bottom: 10px;
+	-webkit-transition: background-color 0.2s linear,border-color 0.2s linear;
+	-moz-transition: background-color 0.2s linear,border-color 0.2s linear;
+	-o-transition: background-color 0.2s linear,border-color 0.2s linear;
+	transition: background-color 0.2s linear,border-color 0.2s linear;
+}
+#modalConsulta textarea{
+	height: 100px;
+	margin-bottom: 0;
+}

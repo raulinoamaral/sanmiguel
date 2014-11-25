@@ -270,9 +270,9 @@ footer{
 	padding:20px 0;
 	}
 footer h4{
-	border-top:3px #333 solid;
-	display:inline-block;
-	padding-top:15px;
+	border-top: 3px #333 solid;
+	display: inline-block;
+	padding-top: 15px;
 	}
 input#mailNewsletter, input#enviarNewsletter, input, textarea{
 	border:#333 solid 2px;
@@ -319,11 +319,13 @@ ul#contactoFooter a:hover{
 	padding:15px 0;
 	}
 #balloon{
-	margin-top:13px;
+	margin-top: 13px;
+	font: 1em 'Droid Sans', sans-serif;
+	font-weight: 400;
 	}
 #balloon a{
-	font: 1.3em Georgia, "Times New Roman", Times, serif;
 	color:#FFF;
+	font-weight: 400;
 	}
 #envios p{
 	margin-bottom:0;

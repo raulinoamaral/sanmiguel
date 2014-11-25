@@ -86,7 +86,7 @@ $(function () {
                 <span>Examinar im&aacute;genes...</span>
             {{ Form::file('files[]', array('id' => 'fileupload', 'multiple' => 'true', 'accept' => 'image/jpg')) }}
             </span>
-            <div id="contadorArchivosSeleccionados" class="alert @if(!$errors->has('files'))hidden@endif">
+            <div id="contadorArchivosSeleccionados" class="alert @if(!$errors->has('files'))hidden @endif">
             </div>
                 
             </div>

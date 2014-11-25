@@ -34,8 +34,10 @@
 				<article class="articulo">
 					<h2>Descripci&oacute;n:</h2>
 					<p>{{ $articulo->long_description }}</p>
-					<h2>Precio</h2>
-					<p>{{ $articulo->moneda->name }} {{ $articulo->price }}</p>
+          @if ($articulo->price != null)
+					 <h2>Precio</h2>
+					 <p>{{ $articulo->moneda->name }} {{ $articulo->price }}</p>
+          @endif
 					
 				</article>
 				<button class="btn btn-consultar" data-toggle="modal" data-target="#modalConsulta">Consultar</button>

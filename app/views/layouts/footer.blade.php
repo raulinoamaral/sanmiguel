@@ -31,7 +31,7 @@
     <div id="footerInferior">
     	<div class="container">
         	<div class="row">
-                <aside id="balloon" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">por <a href="http://balloon.com.uy" title="Desarrollo y dise&ntilde;o por balloon" target="_blank">balloon</a></aside>
+                <aside id="balloon" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">by <a href="http://balloon.com.uy" title="Desarrollo y dise&ntilde;o por balloon" target="_blank">balloon</a></aside>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <div id="envios" class="right">
                     </div>

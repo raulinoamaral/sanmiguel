@@ -39,6 +39,7 @@
 	display: inline-block;
 	zoom: 1;
 	*display: inline;/*IE7 life-saver */
+	position: relative;
 }
 .owl-theme .owl-controls .owl-page span{
 	display: block;

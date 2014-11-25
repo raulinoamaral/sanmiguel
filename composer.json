@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*",
-		"intervention/image": "dev-master",
+		"intervention/image": "1.*",
 		"cviebrock/eloquent-sluggable": "1.0.*"
 	},
 	"autoload": {
